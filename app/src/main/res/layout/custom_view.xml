@@ -5,14 +5,14 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
     <ImageView
-            android:id="@+id/image"
+            android:id="@+id/custm_imv"
             android:layout_width="80dp"
             android:layout_height="70dp"
             android:layout_marginBottom="8dp"
             tools:src="@color/colorPrimary" />
 
     <EditText
-            android:id="@+id/caption"
+            android:id="@+id/custom_edt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Caption of the Image"

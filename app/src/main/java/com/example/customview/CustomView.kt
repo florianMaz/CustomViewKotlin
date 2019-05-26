@@ -20,8 +20,8 @@ class CustomView @JvmOverloads constructor(
     init {
         inflate(context, R.layout.custom_view, this)
 
-        val imageView: ImageView = findViewById(R.id.image)
-        val editText: EditText = findViewById(R.id.caption)
+        val imageView: ImageView = findViewById(R.id.custm_imv)
+        val editText: EditText = findViewById(R.id.custom_edt)
 
         val attributes = context.obtainStyledAttributes(attrs, R.styleable.custom_view_component)
         imageView.setImageDrawable(attributes.getDrawable(R.styleable.custom_view_component_custom_view_image))
